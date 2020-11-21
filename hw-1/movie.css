@@ -65,10 +65,12 @@ font-family: Times New Roman;
 margin: auto;
 padding:1em;
 font-size:13pt;
+font-style: italic;
 }
 
 .publication{
 font-size:13pt;
+
 }
 
 .f{
@@ -89,4 +91,6 @@ margin: 0;
 #w3c{
     float:right;
 }
+
+
 
