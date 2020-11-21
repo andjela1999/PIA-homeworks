@@ -10,43 +10,20 @@
   <meta charset="utf-8" />
   <meta name="description" content="HTML/CSS homework assignment." />
   <meta name="keywords" content="pia, web programming, html, css" />
-  <style>
-    body{
-      background-image: url("images/background.png");
-    }
-    p {
-  font-family: Arial;
-  font-size: 12px;
-}
-aside {
-  width: 20%;
-  
-  
-  
-  float: right;
-  font-style: italic;
-  background-color: #a2b964;
-}
-h1 {
-  text-shadow: 3px 3px #999999;
-  text-align: center;
-  font-weight: bold;
-  font-size: 24pt;
-  font-family: Times New Roman;
-}
-
-
-
-    
-  </style>
+  <link rel="stylesheet" type="text/css" href="movie.css">
 </head>
 
 <body>
   <h1>The Aristocats (1970)</h1>
 
+  <div class="flex-container">
+  
+  <div class="pocetak">
+  <div class="jedan">
   <img src="images/freshbig.png" alt="Rotten" />
-  <span style="color:red;font-size:48pt;"><strong>64%</strong></span>
-
+  <span class="p92">92%</span>
+  </div>
+    
   <p class="quotebubble">
     <img src="images/rotten.gif" alt="Rotten" />
     <q>Between traumas, the movie serves up soothingly banal musical numbers
@@ -154,9 +131,10 @@ h1 {
     <img src="images/critic.gif" alt="Critic" />
     Matt Brunson (unemployed) <br />
   </p>
-
+  </div>
   <!-- sekcija sa informacijama: desna kolona. -->
   <aside>
+  <div class="dva">
   <img src="images/cover.jpeg" alt="general overview" style="width:128px;height:200px;" />
   <dl>
     <dt>STARRING</dt>
@@ -218,7 +196,8 @@ h1 {
   </dl>
 
   </aside>
-
+  </div>
+</div>
   <footer>(1-10) of 88</footer>
 
   <div id="w3c">
