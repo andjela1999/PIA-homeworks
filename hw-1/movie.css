@@ -70,7 +70,12 @@ font-style: italic;
 
 .publication{
 font-size:13pt;
+font-style: italic;
 
+}
+
+.lista{
+padding:15px;
 }
 
 .f{
@@ -88,9 +93,15 @@ padding: 0;
 margin: 0;
 }
 
+dt{
+padding:15px;
+}
+
 #w3c{
     float:right;
 }
+
+
 
 
 
