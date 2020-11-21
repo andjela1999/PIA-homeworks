@@ -10,7 +10,7 @@ h1{
     font-size: 24pt;
     font-weight: bold;
     text-shadow: 3px 3px #999999;
-    font-family: Georgia, 'Times New Roman', serif;
+    font-family: Times New Roman;
 }
 .procenat{
     color:red;
@@ -18,16 +18,18 @@ h1{
     font-weight: bold;
 }
 
+
+
 .pocetak{
     background-image: url('images/rbg.png');
     margin-bottom: 1rem;
-    height: 70px;
+    height: 83px;
 }
 
 .flex-container{
     max-width: 55%;
     margin: auto;
-    box-shadow: 5px 5px 5px #787878;
+    box-shadow: 5px 5px 5px #E2E7DE;
     background-color: #EEEEEE;
     display: flex;
 }
@@ -36,23 +38,47 @@ p{
 font-family: Arial;
 font-size: 12px;
 }
-aside {
+
+aside{
 width: 20%;
-
-
-
 float: right;
-font-style: italic;
+font-style: Arial;
 background-color: #a2b964;
+
 }
-h1 {
-text-shadow: 3px 3px #999999;
-text-align: center;
-font-weight: bold;
-font-size: 24pt;
-font-family: Times New Roman;
-}
+
 
 .slika{
-    width:100%;
+width:100%;
 }
+
+.jedan{
+width:max-width;
+}
+
+.quotebubble{
+border: 2px solid #CCCCCC;
+border-radius: 12px;
+background: #FFFFFF;
+width: 90%;
+font-family: Times New Roman;
+margin: 1rem;
+padding:1em;
+font-size:13pt;
+}
+
+.publication{
+font-size:13pt;
+}
+
+.f{
+background-color: #a2b964;
+padding:0.5em;
+max-width: 55%;
+margin:auto;
+}
+
+ul{
+list-style-type:none;
+}
+
