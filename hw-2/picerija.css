@@ -59,12 +59,12 @@ padding: 0 0 20px;
 color: #ffffff;
 }
 
-
-section.forma{
+.forma{
     padding: 100px;
     box-sizing: border-box;
     height: auto;
     background-color:black;
+    float:center;
     }
 
 nav{
@@ -121,6 +121,7 @@ nav ul li a.active{
     padding:30px 40px;
     text-align:center;
     font-family: "Montserrat", sans-serif;
+    
 
 }
 .contact-form h1{
@@ -196,3 +197,4 @@ footer{
 .smed i:hover{
     color:red;
 }
+
