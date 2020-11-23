@@ -18,7 +18,7 @@ box-sizing: border-box;
 
 section{
 width: 100%;
-height:100vh;
+
 
 }
 
@@ -27,6 +27,7 @@ background: black;
 background-size: cover;
 box-sizing: border-box;  
 text-align: center;
+height:100vh;
 
 }
 
@@ -43,6 +44,7 @@ section.sec2{
     padding: 10px;
     box-sizing: border-box;  
     text-align: center;
+    height:200vh;
 }
 
 section.sec2 p{
@@ -65,16 +67,13 @@ section.forma{
     background-color:black;
     }
 
-
-
 nav{
 width: 100%;
-height: 50px;
+height: 65px;
 background: rgba(0,0,0,.8);
 border-top: 1px solid rgba(255,255,255,.2);
 border-bottom: 1px solid rgba(255,255,255,.2);
-position: sticky;
-top: 50px;
+
 
 }
 
@@ -83,6 +82,7 @@ display: flex;
 margin: 0;
 padding: 0 100px;
 float: right;
+text-align: center;
 }
 
 nav ul li{
@@ -105,25 +105,6 @@ nav ul li a.active{
     background: #f00;
 }
 
-.footer{
-    background:black;
-    color: #d3d3d3;
-    height:400px;
-    
-    width: 100%;
-}
-
-.footer .footer-content{
-    border:1.5px solid red;
-    height:350px;
-    display: flex;
-}
-
-.footer .footer-content .footer-section{
-    flex:1;
-    border: 1px solid white;
-    padding: 25px;
-}
 
 .page-wrapper{
     min-height: 100%;
@@ -215,4 +196,3 @@ footer{
 .smed i:hover{
     color:red;
 }
-
