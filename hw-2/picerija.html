@@ -6,7 +6,7 @@
 
 <head>
   <title>PIA HW - Movie review</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/e68961ce89.js" crossorigin="anonymous"></script>
   <meta name="author" content="Andjela Manojlovic" />
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,18 +20,15 @@
   
 <nav>
   <ul>
-    <li><a href="#" class="active">O NAMA</a></li>
-    <li><a href="#">MENI</a></li>
-    <li><a href="#">KONTAKT</a></li>
+    <li><a href="#onama">O NAMA</a></li>
+    <li><a href="#meni">MENI</a></li>
+    <li><a href="#kontakt">KONTAKT</a></li>
 
   </ul>
 </nav>
-<section class="sec1">
-  <h1></h1>
-</section>
-<section class="sec2">
-  <h2>O nama</h2>
-  <p>
+<section class="sec1" id="onama">
+  <h2 style="font-size:4vw">O nama</h2>
+  <p style="font-size:1.2vw">
     Ako pitate Kragujevčane gde je najbolja italijanska hrana,<br>
      reći će vam da je to u piceriji Kraguj, u centru grada.<br>
       Svi koji vole Italiju, picu i paste, bogatstvo ukusa i mirise mediterana,<br>
@@ -44,71 +41,52 @@ Sa vama od 1988.
 
   </p>
 </section>
-<section class="sec3">
+<section class="sec2" id="meni">
+  <h2 style="font-size:4vw">MENI</h2>
+  
+</section>
+<section class="sec3" id=kontakt>
   <h2>Kontaktirajte nas</h2>
-  <div class="footer">
-    <div class="footer-content">
+  <div class="contact-form">
+    <h2>Kontaktirajte nas</h2>
+    <div class="txtb">
+      <label>Ime i Prezime</label>
+      <input type="text" name="" value="" placeholder="Unesite ime i prezime">  
+    </div>
+    
+    <div class="txtb">
+      <label>Email</label>
+      <input type="email" name="" value="" placeholder="Unesite email adresu">
+    </div>
+
+    <div class="txtb">
+      <label>Broj telefona</label>
+      <input type="tel" name="" value="" pattern="[0-9]{3}-[0-9]{3}/[0-9]{2}/[0-9]{2}"placeholder="Unesite broj telefona">
+    </div>
+
+    <div class="txtb">
+      <label>Poruka</label>
+      <textarea></textarea>
+    </div>
+    <a class="btn">Pošalji</a>
+
 
       
 
-      <div class="footer-section about">
-        <p>za vise informacija,
-          kontaktirajte nas na društvenim mrežama,
-          telefonom ili putem mejla
-        </p>
-        <div class="contact">
-          <span><i class="fas fa-phone"></i>  &nbsp; 060 335 7075</span>
-          <span><i class="fas fa-envelope"></i> &nbsp; picakraguj@gmail.com</span>
-
-        </div>
-        <div class="socials">
-          <a href="#"><i class="fab fa-facebook"></i></a>
-          <a href="#"><i class="fab fa-instagram"></i></a>
-          <a href="#"><i class="fab fa-viber"></i></a>
-
-
-        
-        </div>
-
-      </div>
-
-      <div class="footer-section links"></div>
-
-      <div class="contact-form">
-        <h2>Kontaktirajte nas</h2>
-        <div class="txtb">
-          <label>Ime i Prezime</label>
-          <input type="text" name="" value="" placeholder="Unesite ime i prezime">  
-        </div>
-        
-        <div class="txtb">
-          <label>Email</label>
-          <input type="email" name="" value="" placeholder="Unesite email adresu">
-        </div>
-
-        <div class="txtb">
-          <label>Broj telefona</label>
-          <input type="tel" name="" value="" pattern="[0-9]{3}-[0-9]{3}/[0-9]{2}/[0-9]{2}"placeholder="Unesite broj telefona">
-        </div>
-
-        <div class="txtb">
-          <label>Poruka</label>
-          <textarea></textarea>
-        </div>
-        <a class="btn">Pošalji</a>
-
-
-          
-
-       
-      </div>
-
-
-    </div>
-  
+   
   </div>
  
 </section>
+<footer>
+  <div class="row text-center">
+    <div class="col-md-4 smed">
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-facebook"></i></a>
+      <a href="#"><i class="far fa-envelope"></i></a>
+    </div>
+    
+  </div>
+</footer>
 
   
 
