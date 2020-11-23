@@ -2,10 +2,8 @@ body{
 margin: 0;
 padding: 0;
 font-family: sans-serif;
-background-image: url(glavna4.jpg);
-background-size: cover;
-background-repeat: no-repeat;
 height: 100%;
+background:#000;
 }
 
 html{
@@ -13,59 +11,54 @@ html{
 }
 
 header{
-padding: 10px 100px;
+background: url(slika.jpg); 
+padding: 20px 100px;
 box-sizing: border-box;
 }
 
 section{
 width: 100%;
-height: 100 vh;
+height:100vh;
 
 }
 
 section.sec1{
+background: black; 
 background-size: cover;
-padding:60px;
-text-align:center;
-color:white;
-height:auto;
-}
-
-section.sec1 p{
-margin: 0;
-padding: 0;
-color: #ffffff;
-}
-
-section.sec2{
-padding: 100px;
-box-sizing: border-box;
-height: auto;
+box-sizing: border-box;  
 text-align: center;
 
 }
 
+section.sec1 p{
+    color: white;
+}
 
 section.sec1 h2{
-margin: 0;
-padding: 0 0 20px;
-color: #ffffff;
-
+    color: white;
+}
+section.sec2{
+    background: url(glavna4.jpg); 
+    background-size: cover;
+    padding: 10px;
+    box-sizing: border-box;  
+    text-align: center;
 }
 
 section.sec2 p{
 margin: 0;
 padding: 0;
 color: #ffffff;
-
 }
 
 section.sec2 h2{
-    
-    color:white;
+margin: 0;
+padding: 0 0 20px;
+color: #ffffff;
 }
 
-section.sec3{
+
+section.forma{
     padding: 100px;
     box-sizing: border-box;
     height: auto;
@@ -81,7 +74,8 @@ background: rgba(0,0,0,.8);
 border-top: 1px solid rgba(255,255,255,.2);
 border-bottom: 1px solid rgba(255,255,255,.2);
 position: sticky;
-padding:20px;
+top: 50px;
+
 }
 
 nav ul{
@@ -221,3 +215,4 @@ footer{
 .smed i:hover{
     color:red;
 }
+
