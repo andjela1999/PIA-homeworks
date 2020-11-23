@@ -4,6 +4,7 @@ padding: 0;
 font-family: sans-serif;
 background-image: url(glavna4.jpg);
 background-size: cover;
+background-repeat: no-repeat;
 height: 100%;
 }
 
@@ -24,6 +25,16 @@ height: 100 vh;
 
 section.sec1{
 background-size: cover;
+padding:60px;
+text-align:center;
+color:white;
+height:auto;
+}
+
+section.sec1 p{
+margin: 0;
+padding: 0;
+color: #ffffff;
 }
 
 section.sec2{
@@ -34,13 +45,8 @@ text-align: center;
 
 }
 
-section.sec3{
-    padding: 100px;
-    box-sizing: border-box;
-    height: auto;
-    }
-section.sec2 h2{
-font-size: 3.5em;
+
+section.sec1 h2{
 margin: 0;
 padding: 0 0 20px;
 color: #ffffff;
@@ -48,17 +54,25 @@ color: #ffffff;
 }
 
 section.sec2 p{
-font-size: 1.35em;
 margin: 0;
 padding: 0;
 color: #ffffff;
 
 }
 
-section.sec3{
-background-color: black;
-
+section.sec2 h2{
+    
+    color:white;
 }
+
+section.sec3{
+    padding: 100px;
+    box-sizing: border-box;
+    height: auto;
+    background-color:black;
+    }
+
+
 
 nav{
 width: 100%;
@@ -67,7 +81,7 @@ background: rgba(0,0,0,.8);
 border-top: 1px solid rgba(255,255,255,.2);
 border-bottom: 1px solid rgba(255,255,255,.2);
 position: sticky;
-top:0;
+padding:20px;
 }
 
 nav ul{
@@ -137,6 +151,7 @@ nav ul li a.active{
 .contact-form h1{
     margin-top: 0;
     font-weight: 200;
+
 }
 
 .txtb{
@@ -150,7 +165,7 @@ nav ul li a.active{
     text-align: left;
     color:#777;
     text-transform: uppercase;
-    font-size: 13px;
+    font-size:0.9vw
 
 }
 
@@ -159,7 +174,7 @@ nav ul li a.active{
     border:none;
     background:none;
     outline:none;
-    font-size: 12px;
+    font-size: 1vw;
     color:wheat;
     margin-top: 3px;
 }
@@ -174,4 +189,35 @@ nav ul li a.active{
     margin-top: 8px;
     width: 100%;
     
+}
+
+.f{
+    background-color: black;
+    color: white;
+    padding:0.5em 0;
+    width: 100%;
+    margin:auto;
+    text-align: center;
+    box-shadow: 7px 5px 5px #e2e7de62;
+    }
+
+footer{
+    background-color: #777777 ;
+    height: 50px;
+}
+
+.fab {
+    color: black;
+    font-size: 40px;
+    margin: 10px;
+}
+
+.far{
+    color: black;
+    font-size: 40px;
+    margin: 10px;
+}
+
+.smed i:hover{
+    color:red;
 }
