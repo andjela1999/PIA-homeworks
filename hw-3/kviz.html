@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>kviz</title>
+    <link rel="stylesheet" type="text/css" href="kviz.css">
+
+
+
+</head>
+
+<body>
+
+    <div class="container">
+        <form id="Form1">
+            <h3>Unesite Vaše podatke:</h3>
+            <input type="text" id="ime" placeholder="Ime">
+            <input type="text" id="prezime" placeholder="Prezime">
+
+
+            <div class="btn-box">
+                <button type="button" id="Next1" onclick="dalje()">Dalje</button>
+            </div>
+        </form>
+
+        <form id="Form2">
+            <h4>Za svako pitanje takmičar ima 20 sekundi da odgovori. Tačan odgovor nosi 1 poen, a netačan 0 poena. Ukoliko vreme istekne, podrazumeva se da je odgovor bio netačan. Broj pitanja je 5.Srećno!</h4>
+
+            <div class="btn-box">
+                <button type="button" id="Back1" onclick="nazad()">Nazad</button>
+                <button type="button">Počni</button>
+            </div>
+        </form>
+
+        <div class="step-row">
+            <div id="progress"></div>
+            <div class="step-col"><small>Prijava</small></div>
+            <div class="step-col"><small>Pravila</small></div>
+            <div class="step-col"><small>Kviz</small></div>
+        </div>
+    </div>
+
+
+    <script src="kviz.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Amatic SC', cursive;
+}
+
+body {
+    background-position: center;
+    background-size: cover;
+    background: -webkit-linear-gradient(bottom, #a4c5f7, #f3a9cf);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 360px;
+    height: 420px;
+    margin: 8% auto;
+    background: #fff;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid #566;
+}
+
+h3 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #222;
+    font-size: 25px;
+}
+
+h4 {
+    text-align: center;
+    font-size: 22px;
+}
+
+.container form {
+    width: 280px;
+    position: absolute;
+    top: 100px;
+    left: 40px;
+    transition: 0.5s;
+}
+
+form input {
+    width: 100%;
+    padding: 10px 5px;
+    margin: 5px 0;
+    border: 0;
+    border-bottom: 1px solid #666;
+    outline: none;
+    background: transparent;
+    font-size: 20px;
+}
+
+::placeholder {
+    color: #666;
+}
+
+.btn-box {
+    width: 100%;
+    margin: 30px auto;
+    text-align: center;
+}
+
+form button {
+    width: 130px;
+    height: 45px;
+    margin: 15px 10px;
+    background: linear-gradient(to right, #ff3385, #ffad06);
+    border-radius: 30px;
+    border: 0;
+    outline: none;
+    color: #222;
+    cursor: pointer;
+    font-size: 23px;
+}
+
+#Form2 {
+    left: 450px;
+}
+
+.step-row {
+    width: 360px;
+    height: 40px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 -1px 5px -1px #000;
+    position: relative;
+}
+
+.step-col {
+    width: 120px;
+    text-align: center;
+    color: #111;
+    position: relative;
+    font-size: 25px;
+}
+
+#progress {
+    position: absolute;
+    height: 100%;
+    width: 120px;
+    background: linear-gradient(to right, #ff3385, #ffad06);
+    transition: 1s;
+}
+
+#progress::after {
+    content: '';
+    height: 0;
+    width: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    position: absolute;
+    right: -20px;
+    top: 0;
+    border-left: 20px solid #ffad06;
+}
