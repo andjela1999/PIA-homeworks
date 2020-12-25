@@ -7,14 +7,14 @@ var Back1 = document.getElementById("Back1");
 var progress = document.getElementById("progress");
 
 var ime = document.getElementById("ime").value;
-var prezime = document.detElementById("prezime").value;
+
 
 
 function dalje() {
-
-    if (ime == "" || ime == null || prezime == "" || prezime == null) {
-
-        alert("unesite sve podatke");
+    var x = document.getElementById("username").value;
+    if (x == "") {
+        alert("Morate uneti Vaše ime!");
+        return false;
     }
 
     Form1.style.left = "-450px";
