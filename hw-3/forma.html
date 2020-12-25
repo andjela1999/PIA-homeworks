@@ -17,10 +17,8 @@
 
     <div class="container">
         <form id="Form1">
-            <h3>Unesite Vaše podatke:</h3>
-            <input type="text" id="ime" placeholder="Ime">
-            <input type="text" id="prezime" placeholder="Prezime">
-
+            <h3>Unesite Vaše ime:</h3>
+            <input type="text" id="username" name="name" placeholder="Ime">
 
             <div class="btn-box">
                 <button type="button" id="Next1" onclick="dalje()">Dalje</button>
@@ -34,7 +32,7 @@
                 <button type="button" id="Back1" onclick="nazad()">Nazad</button>
 
             </div>
-            <a href="game.html" id="game" class="btn-box1">Započni kviz</a>
+            <a href="kviz.html" id="game" class="btn-box1">Započni kviz</a>
         </form>
 
         <div class="step-row">
@@ -47,6 +45,7 @@
 
 
     <script src="forma.js"></script>
+    <script src="kraj.js"></script>
 
 </body>
 
