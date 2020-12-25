@@ -1,0 +1,112 @@
+body {
+    background-size: cover;
+}
+
+.choice-container {
+    display: flex;
+    margin-bottom: 0.8rem;
+    width: 100%;
+    border-radius: 30px;
+    background: linear-gradient(to right, #ff3385, #ffad06);
+    background-size: cover;
+    font-size: 3rem;
+    min-width: 80rem;
+}
+
+.choice-container:hover {
+    cursor: pointer;
+    transform: scale(1.02);
+}
+
+.choice-prefix {
+    padding: 2rem 2.5rem;
+    color: white;
+}
+
+.choice-text {
+    padding: 2rem;
+    width: 100%;
+}
+
+.correct {
+    background: linear-gradient(to right, #99ff99, #ffff99);
+}
+
+.incorrect {
+    background: linear-gradient(to right, #ff9999, #ffcc99);
+}
+
+#hud {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hud-prefix {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.hud-main-text {
+    text-align: center;
+}
+
+#progressBar {
+    width: 20rem;
+    height: 3rem;
+    border: 0.2rem solid rgb(153, 210, 255);
+    margin-top: 2rem;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+#progressBarFull {
+    height: 100%;
+    width: 0%;
+    background: rgb(153, 210, 255);
+}
+
+@media screen and (max-width: 760px) {
+    .choice-container {
+        min-width: 40rem;
+    }
+}
+
+.btn-box {
+    background: linear-gradient(to right, #ff3385, #ffad06);
+    border-radius: 30px;
+    border: 0;
+    outline: none;
+    color: #222;
+    font-size: 1.7rem;
+    padding: 14px;
+    width: 12rem;
+    height: 4.7rem;
+    text-align: center;
+    position: absolute;
+    margin: 60.2rem 0 0 65rem;
+    text-decoration: underline;
+}
+
+.btn-box:hover {
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+.btn-box1 {
+    background: linear-gradient(to right, #ff3385, #ffad06);
+    border-radius: 30px;
+    border: 0;
+    outline: none;
+    color: #222;
+    font-size: 1.7rem;
+    padding: 14px;
+    width: 12rem;
+    text-align: center;
+    position: absolute;
+    margin: 60rem 0 0 52rem;
+}
+
+.btn-box1:hover {
+    cursor: pointer;
+    transform: scale(1.03);
+}
