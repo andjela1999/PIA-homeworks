@@ -1,6 +1,8 @@
 body {
     font-family: Arial, Helvetica;
     background-color: rgb(130,130,130);
+    background-image: url('poz3.jpg');
+    background-size: cover;
 }
 
 * {
