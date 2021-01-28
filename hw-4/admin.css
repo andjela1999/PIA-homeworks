@@ -1,0 +1,152 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    height: 100%;
+    background:#000;
+    
+    background-color: rgb(130,130,130);
+    background-image: url('poz3.jpg');
+    background-size: cover;
+    }
+    
+    html{
+        height: 100%;
+    }
+    
+    header{
+    background: url(slika.jpg); 
+    padding: 20px 100px;
+    box-sizing: border-box;
+    }
+    
+    section{
+        width: 100%;
+        
+        
+        }
+        
+        section.sec1{
+        background: black; 
+        background-size: cover;
+        box-sizing: border-box;  
+        text-align: center;
+        height:100vh;
+        
+        }
+        
+        section.sec1 p{
+            color: white;
+        }
+        
+        section.sec1 h2{
+            color: white;
+        }
+        section.sec2{
+            background: url(glavna4.jpg); 
+            background-size: cover;
+            padding: 10px;
+            box-sizing: border-box;  
+            text-align: center;
+            height:200vh;
+        }
+        
+        section.sec2 p{
+        margin: 0;
+        padding: 0;
+        color: #ffffff;
+        }
+        
+        section.sec2 h2{
+        margin: 0;
+        padding: 0 0 20px;
+        color: #ffffff;
+        }
+        
+        .forma{
+            padding: 100px;
+            box-sizing: border-box;
+            height: auto;
+            background-color:black;
+            float:center;
+            }
+        
+        nav{
+        width: 100%;
+        height: 65px;
+        background: rgba(0,0,0,.8);
+        border-top: 1px solid rgba(255,255,255,.2);
+        border-bottom: 1px solid rgba(255,255,255,.2);
+        
+        
+        }
+        
+        nav ul{
+        display: flex;
+        margin: 0;
+        padding: 0 50px;
+        float: right;
+        text-align: center;
+        }
+        
+        nav ul li{
+            list-style: none;
+        }
+        
+        nav ul li a{
+            display: block;
+            color:#ffffff;
+            padding: 0 20px;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-weight: bold;
+            line-height: 50px;
+        
+        }
+        
+        nav ul li a:hover,
+        nav ul li a.active{
+            background: rgb(255,165,0);
+        }
+        
+        
+        .page-wrapper{
+            min-height: 100%;
+        }
+    
+    .smed i:hover{
+        color:rgb(255,165,0);
+    }
+
+    .boxContainer{
+        width:12rem;
+        height:12px;
+        
+        padding-right:25rem;
+        
+    }
+
+    .elementsContainer{
+        width:100%;
+        height:100%;
+        
+        
+        
+    }
+
+    .search{
+        
+        border:none;
+        height:2.9rem;
+        width:30rem;
+        font-family: sans-serif;
+        border-radius:12px;
+        margin-top:1.9rem;
+        margin-left:98rem;
+    }
+   
+    
+
+
+
+    
