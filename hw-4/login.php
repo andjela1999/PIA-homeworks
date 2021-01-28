@@ -12,7 +12,7 @@
 
 
 
-<form action="probam.php" method="POST" class="form">
+<form action="forlogin.php" method="POST" class="form">
   <div class="container">
     <h1>LOG IN</h1>
     <p id="firstText">Please fill in this form to log in.</p>
