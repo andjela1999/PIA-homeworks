@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, Helvetica;
+    background-color: rgb(130,130,130);
+    background-image: url('poz3.jpg');
+    background-size: cover;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+
+/* Add padding to containers */
+
+.container {
+    
+    width: 33%;
+    color: black;
+    padding: 1rem ;
+    padding-right: 1.5rem;
+    margin: auto;
+    border-radius: 8px;
+    background-color: white;
+    
+    
+}
+
+.container h1{
+color:rgb(255,165,0);
+text-align:center;
+
+}
+
+
+
+/* Full-width input fields */
+
+input[type=text],
+input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 0px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+input{
+    border-radius: 8px;
+}
+
+input[type=text]:focus,
+input[type=password]:focus {
+    
+    background-color: #ddd;
+    outline: none;
+}
+
+
+/* Overwrite default styles of hr */
+
+hr {
+    border: 1px solid rgb(70,70,70);
+    margin-bottom: 10px;
+}
+
+
+/* Set a style for the submit button */
+
+.registerbtn {
+    background-color: rgb(255,165,0);
+    color: black;
+    font-weight: bold;
+    padding: 16px 20px;
+    margin: 2px 10% ;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+    opacity: 0.9;
+    border-radius:8px;
+    
+}
+
+.registerbtn:hover {
+    opacity: 1;
+}
+
+
+/* Add a blue text color to links */
+
+a {
+    color: black;
+    font-weight: bold;
+}
+
+
+
+
+
+.smed i:hover{
+    color: rgb(255,165,0);
+}
+
+.cancel {
+    background-color: rgb(255, 224, 102);
+    color: black;
+    font-weight: bold;
+    padding: 16px 20px;  
+    border: none;
+    cursor: pointer;
+    width: 30%;
+    opacity: 0.9;
+    border-radius:8px;
+    
+}
+
+.cancel:hover {
+    opacity: 1;
+}
+
