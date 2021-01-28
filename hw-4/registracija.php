@@ -4,7 +4,7 @@
 <script src="https://kit.fontawesome.com/e68961ce89.js" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" type="text/css" href="hw4.css">
+<link rel="stylesheet" type="text/css" href="registracija.css">
 </head>
 <body>
 
@@ -41,7 +41,7 @@
   </div>
   
   <div class="container signin">
-    <p>Already have an account? <a href="#">Sign in to IMDb</a>.</p>
+    <p>Already have an account? <a href="login.php">Log in to IMDb</a>.</p>
   </div>
   <footer>
     <div class="row text-center">
