@@ -5,8 +5,7 @@ body{
     height: 100%;
     background:#000;
     
-    background-color: rgb(130,130,130);
-    background-image: url('poz3.jpg');
+    background-color: black;
     background-size: cover;
     }
     
@@ -153,7 +152,7 @@ body{
 
 
 
-    //odavde za filmove
+  
   
     #wrap {
         width:80%;
@@ -174,14 +173,14 @@ body{
         border-bottom:1px solid #000;
     }    
     #nav li {
-        display: -moz-inline-box;/* for FF2 (inline-box must be used for shrink wrapping)*/
-        display:inline-block;/* for modern browsers */
+        display: -moz-inline-box;
+        display:inline-block;
     }
-    * html #nav li {display:inline;}/* inline-block trigger for IE6 */
-    *+html #nav li {display:inline;}/* inline-block trigger for IE7 */
+    * html #nav li {display:inline;}
+    *+html #nav li {display:inline;}
     
     #nav li a {
-        display:inline-block;/*IE6/7 need this (haslayout)*/
+        display:inline-block;
         padding:5px 10px;
         text-decoration:none;
         color:#FFF;
@@ -195,5 +194,26 @@ body{
         border:none;
         margin:10px 0 0;
     }
+
+    #content{
+        width:80%;
+        margin:20px auto;
+        
+    }
+
+    p{
+        font-size: 5rem;
+        color:ivory;
+        font-weight: bold;
+        font-style: inherit;
+        margin-bottom: 2px;
+        margin-left: 14px;
+    }
+
+    img{
+        width:40rem;
+    }
+
+
     
     
