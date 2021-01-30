@@ -1,4 +1,8 @@
+<?php
+    session_start();
+    include_once 'include.php';
 
+?>
 
 <!DOCTYPE html>
 <html>
@@ -9,6 +13,7 @@
 <link rel="stylesheet" type="text/css" href="addfilm.css">
 </head>
 <body>
+
 
 
 
@@ -43,10 +48,19 @@
 
     <label for="duration"><b>Duration</b></label>
     <input type="text" placeholder="" name="duration" id="duration" required>
+    
+    
+    <label for="image"><b>Image</b></label>
+    <input type="file" placeholder="" name="image" id="image" required>
+        
+    </form>
+    
+
+  
 
     <hr>
    
-    <a href="login.php" class="cancel">Cancel</a>
+    <a href="admin.php" class="cancel">Cancel</a>
     <button type="submit" class="registerbtn">Add film</button>
     
   </div>
