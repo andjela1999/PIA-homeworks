@@ -1,3 +1,6 @@
+<?php
+    include_once 'include.php';
+?>
 <!DOCTYPE html>
 <html>
 
@@ -37,11 +40,28 @@
       <ul>
         
         <li><a href="#top">go to top</a></li>
-        <li><a href="login.php">Log out</a></li>
         <li><a href="addfilm.php">ADD FILM</a></li>
+        <li><a href="deletefilm.php">DELETE FILM</a></li>
+        <li><a href="login.php">Log out</a></li>
+        
+        
     
       </ul>
   </nav>
+
+  <div id="content">
+      <?php
+          $sql4="SELECT * FROM films";
+          $result4=mysqli_query($conn,$sql4);
+          while($row = mysqli_fetch_array($result4)){
+              echo "<div id='img_div'>";
+                 echo "<p>".$row['title']."</p>";
+                 echo "<img src='fimages/".$row['img']."'>";
+                
+              echo "</div>";
+          }
+      ?>
+  </div>
 
   
    
