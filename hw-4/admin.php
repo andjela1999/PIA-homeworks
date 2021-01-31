@@ -25,13 +25,15 @@
             <div class="boxContainer">
                 <table class="elementsContainer">
                     <tr>
-                        <td>
-                            <input type="text" placeholder="search" class="search">
+                        <td><form>
+                            <input type="text" placeholder="search" name="search"  class="search">
                         </td>
                         <td>
-                            <a href="#"><i class="fas fa-search"></i>
-                            </a>
+                            <button class="btn" type="submit" name="isearch"><i class="fas fa-search"></i></button>
+                            </form>
                         </td>
+                            
+                        
                     </tr>    
                 </table>
             </div>
@@ -40,8 +42,9 @@
       <ul>
         
         <li><a href="#top">go to top</a></li>
+        <li><a href="update.php">EDIT</a></li>
         <li><a href="addfilm.php">ADD FILM</a></li>
-        <li><a href="deletefilm.php">DELETE FILM</a></li>
+        <li><a href="deleteFilm.php">DELETE FILM</a></li>
         <li><a href="login.php">Log out</a></li>
         
         
@@ -50,23 +53,51 @@
   </nav>
 
   <div id="content">
-      <?php
-          $sql4="SELECT * FROM films";
-          $result4=mysqli_query($conn,$sql4);
-          while($row = mysqli_fetch_array($result4)){
-              echo "<div id='img_div'>";
-                 echo "<p>".$row['title']."</p>";
-                 echo "<img src='fimages/".$row['img']."'>";
-                
-              echo "</div>";
+  <?php
+     
+    
+          if(isset($_POST['isearch'])){
+              $search=$_POST['search'];
+              $sql="SELECT * FROM films WHERE title LIKE '%$search%'";
+              $result=mysqli_query($conn,$sql);
+              $resultCheck=mysqli_num_rows($result);
+
+              if($resultCheck > 0){
+                  echo "nesto1";
+                  while($row=mysqli_fetch_array($result)){
+                    
+                      echo "<div id='img_div'>";
+                      echo "<a id='title' href='singleMovie.php?film=`<?php echo $row[title]>`'".$row['title']."</a>";
+                      echo "<div>"; 
+                      echo "<img src='fimages/".$row['img']."'>";
+                      echo "</div>";
+                      echo "</div>";
+                    
+
+                  }
+              }
           }
+          else{
+              
+
+              $sql4="SELECT * FROM films";
+              $result4=mysqli_query($conn,$sql4);
+              while($row = mysqli_fetch_array($result4)){
+                  
+                  echo "<div id='img_div'>";
+                  echo "<a id='title' href='singleMovie.php'>".$row['title']."</a>";
+                  echo "<div>"; 
+                  echo "<img src='fimages/".$row['img']."'>";
+                  echo "</div>";
+                  echo "</div>";
+                }
+          }
+      
       ?>
-  </div>
 
-  
-   
- 
-
+      
+      
+    </div>
 
  
 </body>
