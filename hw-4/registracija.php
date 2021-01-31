@@ -41,7 +41,7 @@
   </div>
   
   <div class="container signin">
-    <p>Already have an account? <a href="login.php">Log in to IMDb</a>.</p>
+    <p>Already have an account? <a href="login.php">Click HERE to Log in</a>.</p>
   </div>
   <footer>
     <div class="row text-center">
