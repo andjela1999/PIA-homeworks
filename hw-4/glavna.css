@@ -169,7 +169,6 @@ body{
         padding:5px 0;
         text-align:center;/*center the list items*/
         list-style:none;
-        background:;
         border-bottom:1px solid #000;
     }    
     #nav li {
@@ -201,7 +200,7 @@ body{
         
     }
 
-    p{
+    #title{
         font-size: 5rem;
         color:ivory;
         font-weight: bold;
@@ -213,7 +212,6 @@ body{
     img{
         width:40rem;
     }
-
 
     
     
