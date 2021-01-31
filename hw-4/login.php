@@ -36,7 +36,7 @@
   </div>
   
   <div class="container signin">
-    <p>Doesn't have an account? Click here: <a href="imdb.php">Create IMDb account</a>.</p>
+    <p>Doesn't have an account? Click here: <a href="imdb.php">Create an account</a>.</p>
   </div>
   <footer>
     <div class="row text-center">
