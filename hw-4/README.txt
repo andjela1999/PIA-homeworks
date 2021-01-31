@@ -1,0 +1,2 @@
+-fajl koji je predviđen da korisnik prvi vidi je login.php
+-folder fimage je folder koji sadrži slike koje se koriste kao posteri filmova(na glavnoj stranici i upisuju se u bazu)
